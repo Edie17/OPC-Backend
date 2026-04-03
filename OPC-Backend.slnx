@@ -1,3 +1,7 @@
 <Solution>
-  <Project Path="OPC-Backend.csproj" />
+  <Project Path="src/OPC-Backend.Api/OPC-Backend.Api.csproj" />
+  <Project Path="src/OPC-Backend.Domain/OPC-Backend.Domain.csproj" />
+  <Project Path="src/OPC-Backend.Application/OPC-Backend.Application.csproj" />
+  <Project Path="src/OPC-Backend.Infrastructure/OPC-Backend.Infrastructure.csproj" />
+  <Project Path="src/OPC-Backend.OpcServer/OPC-Backend.OpcServer.csproj" />
 </Solution>

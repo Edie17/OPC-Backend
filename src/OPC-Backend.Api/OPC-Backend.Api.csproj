@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>OPC_Backend.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OPC-Backend.Application\OPC-Backend.Application.csproj" />
+    <ProjectReference Include="..\OPC-Backend.Infrastructure\OPC-Backend.Infrastructure.csproj" />
+    <ProjectReference Include="..\OPC-Backend.OpcServer\OPC-Backend.OpcServer.csproj" />
+  </ItemGroup>
+
+</Project>
